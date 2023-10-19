@@ -1,0 +1,43 @@
+.container {
+  min-height: calc(100vh - 2.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.textarea {
+  margin-top: 5rem;
+  margin-right: 25rem;
+}
+
+.textarea > p {
+  color: beige;
+  margin: 1.2rem 0;
+}
+
+.container button {
+  border: 2px var(--korpica-theme-primary) solid;
+  background-color: var(--korpica-theme-secondary);
+  padding: 1rem;
+  border-radius: 1rem;
+  opacity: 0.8;
+  margin-top: 10rem;
+  margin-left: 2rem;
+  font-weight: bold;
+  width: 15rem;
+}
+
+button > p {
+  color: var(--korpica-theme-primary);
+}
+
+button:hover {
+  border: 2px var(--korpica-theme-secondary) solid;
+  background-color: var(--korpica-theme-primary);
+  cursor: pointer;
+}
+
+button:hover p {
+  color: var(--korpica-theme-secondary);
+}

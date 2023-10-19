@@ -1,0 +1,46 @@
+.article {
+  padding-top: 3.2rem;
+  background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_20/1569215/corn-crusted-chicken-mc-main1-200513.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.last_area {
+  position: absolute;
+  display: none;
+}
+
+.last_area p {
+  color: var(--korpica-theme-secondary);
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.2px;
+  opacity: 0.3;
+  font-size: 3rem;
+  word-spacing: 1rem;
+  letter-spacing: 0.1rem;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.third_component {
+  opacity: 0.8;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third_component > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 3rem;
+}
+
+.third_component p {
+  font-weight: bold;
+}

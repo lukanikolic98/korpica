@@ -1,9 +1,31 @@
+:root {
+  --korpica-theme-primary: #e72929;
+  --korpica-theme-secondary: whitesmoke;
+}
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   font-size: 18px;
+  scroll-behavior: auto;
+}
+
+h1 {
+  font-family: "Comic Sans MS";
+  padding: 1rem 0;
+  color: var(--korpica-theme-primary);
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.2px;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Comic Sans MS";
 }
 
 body {

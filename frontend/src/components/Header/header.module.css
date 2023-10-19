@@ -1,16 +1,21 @@
 .header {
-  background: white;
+  background: var(--korpica-theme-secondary);
   padding: 0;
-  border-bottom: 1px solid #e72929;
+  border-bottom: 2px solid var(--korpica-theme-primary);
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0.8;
 }
 
 .header a {
-  color: #af1313;
+  color: var(--korpica-theme-primary);
 }
 
 .header a:hover {
-  background: #e72929;
-  color: white;
+  background: var(--korpica-theme-primary);
+  color: var(--korpica-theme-secondary);
   cursor: pointer;
 }
 
@@ -43,7 +48,7 @@
 .menu {
   position: absolute;
   z-index: 1;
-  background-color: whitesmoke;
+  background-color: var(--korpica-theme-secondary);
   display: none;
 }
 
